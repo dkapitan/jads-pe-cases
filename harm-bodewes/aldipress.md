@@ -28,6 +28,8 @@ To support this this new strategy with data analysis, Harm Bodewes stepped in an
 
 ![image](islr-figure-12.8.png)
 
+Source: [Introduction to Statistical Learning, 2nd edition](https://www.statlearning.com/). Chapter 12: Unsupervised Learning.
+
 The figure illustrates how these clusters are determined. The algorithm runs in several iterations, and every iteration has several steps. The objective of the algorithm is to assign a colour to each observation. In this example we see three different colours, so k=3. The example above is in the 2-dimensional space, you can see an x- and a y-axis. The power of the algorithm is that you can also run it in the n-dimensional space, which is obviously more difficult to visualize. In the Aldipress case we used a 40-dimensional space. 
 
 We implemented this algorithm in a Python notebook. The input data came from both SAS (the forecasting “engine” of Aldipress) and SAP (the ERP system which contains all master data of Aldipress). Below you find the output for SUPERUNIE stores with 3 metres shelf space.
