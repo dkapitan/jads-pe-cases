@@ -1,10 +1,6 @@
-# Case: Aldipress
+# Case title: Sell less, make more money
 
-- Company: Aldipress
-- Lead Data Scientist: Harm Bodewes
-- Type of collaboration: in-company project JADS Professional Education 
-
-## Sell less - make more money
+## Case background
 
 Aldipress has been the market leader in distribution and marketing of magazines, comics, novels and puzzles in the Netherlands for over 50 years. As a partner for publishers and retailers, Aldipress' core business is to find effective solutions for assortment management, circulation management, shelf presentations and promotions. It was acquired by DPG in 2019 and currently serves:
 
@@ -22,7 +18,7 @@ Sales of printed magazines have shrunk considerably since the advent of online m
 
 Traditionally, Aldipress' strategy was to sell as many magazines as possible, from as many publishers as possible, from as many points of sale as possible. Following a new business strategy in 2020, the approach for distribution of print magazines was changed to focus on a core assortment per store type. You can imagine this was a considerablt mind shift for a company which has been very successful with a “steady” business concept for decades.
 
-## The solution
+## The results
 
 To support this this new strategy with data analysis, Harm Bodewes stepped in and applied unsupervised machine learning to identify different different store types in a jungle of numerical data. Specifically, he used K-Means clustering which takes several numerical attributes as input to identify a pre-defined number (K) clusters. The outcome of the various runs of the clustering algorithm were analysed qualitatively to arrive at a practical set of store type. In addition, a core assortment and a uniform shelf layout was defined for each different store type. The solution was developed in April-September 2021 and is currently being implemented at SUPERUNIE and other supermarkets in The Netherlands.
 
@@ -34,11 +30,20 @@ The figure illustrates how these clusters are determined. The algorithm runs in 
 
 We implemented this algorithm in a Python notebook. The input data came from both SAS (the forecasting “engine” of Aldipress) and SAP (the ERP system which contains all master data of Aldipress). Below you find the output for SUPERUNIE stores with 3 metres shelf space.
 
-## The benefit
-
 Based on the output, Aldipress defined 3 store types: BUDGET, FAMILY and PREMIUM. In BUDGET stores, Aldipress will place more TV Guides (who is still buying TV magazines in 2022 by the way?) and Gossip. In PREMIUM Aldipress will supply more Glossies and Woman-magazines. The category FAMILY is “for everybody something”.
 
 The cluster analysis contains very relevant information for Aldipress, as this solution can minimise return cost and the risk of out-of-stock by making a good estimation of number of magazines to be sold. The supermarket manager is also happy with this solution, as he/she will only sell magazines which the consumer really wants. The small publishers with very specific magazines might be less happy and will look for other ways of distribution.
+
+## Testimonial
+
+<How did the alumnus/alumni apply her/his experience at JADS in this case? How would she/he describe this to others?>
+
+## Facts
+
+- Company: Aldipress
+- Lead Data Scientist: Harm Bodewes
+- Type of collaboration: in-company project JADS Professional Education 
+
 
 
 
