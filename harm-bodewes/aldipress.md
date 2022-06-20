@@ -16,11 +16,11 @@ __\[start purple block\]__
 
 Sales of printed magazines have shrunk considerably since the advent of online media. Digitalisation creates many new opportunities for publishers, but obviously results in declining revenues from printed magazines year on year. Furthermore, shelf space in a supermarket is very expensive. These trends have challenged Aldipress and supermarket managers how to make a profit in a declining market. In essence, this boils down optimal matching of supply and demand of the many magazines across many different types of shops.
 
-Traditionally, Aldipress' strategy was to sell as many magazines as possible, from as many publishers as possible, from as many points of sale as possible. Following a new business strategy in 2020, the approach for distribution of print magazines was changed to focus on a core assortment per store type. You can imagine this was a considerablt mind shift for a company which has been very successful with a “steady” business concept for decades.
+Traditionally, Aldipress' strategy was to sell as many magazines as possible, from as many publishers as possible, from as many points of sale as possible. Following a new business strategy in 2020, the approach for distribution of print magazines was changed to focus on a core assortment per store type. You can imagine this was a considerable mind shift for a company which has been very successful with a “steady” business concept for decades.
 
 ## The results
 
-To support this this new strategy with data analysis, Harm Bodewes stepped in and applied unsupervised machine learning to identify different different store types in a jungle of numerical data. Specifically, he used K-Means clustering which takes several numerical attributes as input to identify a pre-defined number (K) clusters. The outcome of the various runs of the clustering algorithm were analysed qualitatively to arrive at a practical set of store type. In addition, a core assortment and a uniform shelf layout was defined for each different store type. The solution was developed in April-September 2021 and is currently being implemented at SUPERUNIE and other supermarkets in The Netherlands.
+To support this this new strategy with data analysis, Harm Bodewes stepped in and applied unsupervised machine learning to identify different different store types in a jungle of numerical data. Specifically, he used K-Means clustering which takes several numerical attributes as input to identify a pre-defined number (K) clusters. The outcome of the various runs of the clustering algorithm were analysed qualitatively to arrive at a practical set of store type. In addition, a core assortment and a uniform shelf layout was defined for each different store type. The solution was developed in April-September 2021 and is currently (2022) being implemented at SUPERUNIE and other supermarkets in The Netherlands.
 
 ![image](islr-figure-12.8.png)
 
@@ -36,22 +36,15 @@ The cluster analysis contains very relevant information for Aldipress, as this s
 
 ## Testimonial
 
-<How did the alumnus/alumni apply her/his experience at JADS in this case? How would she/he describe this to others?>
+"This project was the "master piece" of my JADS-education. The project contained several elements which were really valuable for my professional development:
+1. The sponsor (Aldipress) was pushing me (in a friendly way...) in getting the best results. I  liked that, in this way I could really make impact with this assignment. 
+2. After executing some group assignments in the JADS-curriculum, this assignment was the first one in which I did all CRISP-DM phases on my own. This was a great learning experience. 
+3. The coaching by JADS was at an excellent level. The iniatitive must come from the student, but I think this can be expected from students in this stage lof the curriculum.
+
+Overall I am very happy with this assignment, it was the cherry on the pudding of my JADS-education."
 
 ## Facts
 
 - Company: Aldipress
 - Lead Data Scientist: Harm Bodewes
 - Type of collaboration: in-company project JADS Professional Education 
-
-
-
-
-
-
-
-
-
-
-
-
